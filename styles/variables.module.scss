@@ -1,7 +1,14 @@
 
-$primay-color: blue;
-
+$primay-color: rgb(46, 44, 44);
+$secondary-color: red;
+$link-color: black;
+$link-color-hover: gray;
+$link-color-focus: lightgray;
 
 :export {
-    primary-color: $primay-color
+    primary-color: $primay-color;
+    secondary-color: $secondary-color;
+    link-color: $link-color;
+    link-color-hover: $link-color-hover;
+    link-color-focus: $link-color-focus;
 }

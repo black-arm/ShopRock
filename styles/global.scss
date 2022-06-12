@@ -1,3 +1,4 @@
+@import './variables.module.scss';
 
 *{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -45,7 +46,36 @@ html, body {
         font-size: 16px;
         padding: 5px;
     }
+}
 
+.m-10 {
+    margin: 10px;
+}
 
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mx-10 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.px-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+    &:hover {
+        color: $link-color-hover;
+    }
+
+    &:focus {
+        color: $link-color-focus;
+    }
 }
 

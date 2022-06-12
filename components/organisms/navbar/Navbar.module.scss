@@ -1,0 +1,16 @@
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+    justify-content: space-between;
+    div {
+        display: flex;
+    }
+}
+
+.shopRockNavbar {
+    color: #fff;
+    background-color: rgb(46, 44, 44);
+}
