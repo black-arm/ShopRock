@@ -1,7 +1,6 @@
-import '../styles/globals.css'
 import variables from '../styles/variables.module.scss';
-import 'bootstrap/scss/bootstrap.scss';
-
+//import 'bootstrap/scss/bootstrap.scss';
+import '../styles/global.scss';
 import type { AppProps } from 'next/app'
 import { RecoilRoot } from 'recoil';
 
