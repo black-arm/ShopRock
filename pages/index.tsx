@@ -1,12 +1,14 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import { Hello } from '../components/atoms/hello/Hello'
+import { Template, TextInput } from '../components'
 import styles from '../styles/Home.module.scss'
 
 const Home: NextPage = () => {
   return (
-    <Hello />
+    <Template>
+      <TextInput placeholder='Inserisci Nome' label='inserisci Nome' />
+    </Template>
   )
 }
 
